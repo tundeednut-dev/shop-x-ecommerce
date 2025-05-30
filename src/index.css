@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-hero{
+    background-image: url('/storeImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.scrollbar-hidden::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .navbar{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 768px){
+        .sidebar{
+            display: none;
+        }
+}
+
+.bg-color{
+    background-color:#f1f1f2; ;
+}@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out;
+}
