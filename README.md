@@ -1,13 +1,57 @@
+# 🛒 Shop X – E-commerce Web Application
 
-# React + Vite
+Shop X is a responsive e-commerce web application built with React.js. It provides users with an intuitive shopping experience, including product discovery, product details, shopping cart management, and a checkout interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
 
-Currently, two official plugins are available:
+- **Product Browsing:** Explore available products.
+- **Product Search:** Search for products.
+- **Product Details:** View individual product information.
+- **Shopping Cart:** Add, remove, and manage cart items.
+- **Checkout:** Enter delivery information and select delivery and payment methods.
+- **Order Confirmation:** Display an order confirmation notification after checkout.
+- **Responsive Design:** User-friendly interface across different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technologies
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- Tailwind CSS
+- FakeStore API
+- React Context API
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Live Demo
+
+https://ecom-tunde.vercel.app
+
+## 📂 Source Code
+
+https://github.com/tundeednut-dev/shop-x-ecommerce
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+   `git clone https://github.com/tundeednut-dev/shop-x-ecommerce.git`
+
+2. Navigate into the project directory:
+
+   `cd shop-x-ecommerce`
+
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+## 📝 Development Notes
+
+The checkout interface currently supports delivery information and payment method selection. Online payment gateway integration and actual payment processing have not yet been implemented.
+
+## 👨‍💻 Developer
+
+Olatunde Joshua
+
+Junior Web Developer | React.js Developer
